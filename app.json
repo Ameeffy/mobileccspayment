@@ -1,21 +1,21 @@
 {
   "expo": {
-    "name": "ccspayment",
+    "name": "CCS Payment",
     "slug": "ccspayment",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/ccsdeptlogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/ccsdeptlogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.ccspayment"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0e1b7c5b-9407-431e-801c-1e037fed03be"
+      }
     }
   }
 }
